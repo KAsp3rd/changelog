@@ -30,6 +30,20 @@ do
             proj_credit=CyanogenMod
         elif [ "$origin" = "faux" ]; then
             proj_credit=Faux123
+        elif [ "$origin" = "kas" ]; then
+            proj_credit=AOKP
+        elif [ "$origin" = "kasp" ]; then
+            proj_credit=AOKP
+        elif [ "$origin" = "KAsp3rd" ]; then
+            proj_credit=AOKP
+        elif [ "$origin" = "bit" ]; then
+            proj_credit=AOKP
+        elif [ "$origin" = "kasp3" ]; then
+            proj_credit=KAsp3rd
+        elif [ "$origin" = "omapzoom" ]; then
+            proj_credit=OMAP
+        elif [ "$origin" = "muppets" ]; then
+            proj_credit=CM
         else
             proj_credit=KAsp3rd
         fi
